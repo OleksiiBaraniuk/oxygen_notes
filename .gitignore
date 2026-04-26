@@ -1,0 +1,36 @@
+# Ignore everything by default
+*
+!.gitignore
+!README.md
+
+# OxygenNotesAndroid source
+!OxygenNotesAndroid/
+OxygenNotesAndroid/**
+!OxygenNotesAndroid/app/
+OxygenNotesAndroid/app/**
+!OxygenNotesAndroid/app/src/
+OxygenNotesAndroid/app/src/**
+!OxygenNotesAndroid/app/src/**
+!OxygenNotesAndroid/app/build.gradle.kts
+!OxygenNotesAndroid/app/proguard-rules.pro
+!OxygenNotesAndroid/build.gradle.kts
+!OxygenNotesAndroid/gradle.properties
+!OxygenNotesAndroid/settings.gradle.kts
+!OxygenNotesAndroid/gradlew
+!OxygenNotesAndroid/gradlew.bat
+!OxygenNotesAndroid/gradle/
+OxygenNotesAndroid/gradle/**
+!OxygenNotesAndroid/gradle/wrapper/
+!OxygenNotesAndroid/gradle/wrapper/gradle-wrapper.properties
+!OxygenNotesAndroid/gradle/wrapper/gradle-wrapper.jar
+
+# APK release
+!releases/
+!releases/*.apk
+
+# Never include
+OxygenNotesAndroid/local.properties
+OxygenNotesAndroid/.gradle/
+OxygenNotesAndroid/build/
+OxygenNotesAndroid/app/build/
+OxygenNotesAndroid/**/.DS_Store
